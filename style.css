@@ -1,2 +1,63 @@
-font-family: 'Roboto',
-sans-serif;
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+span {
+    color: orangered;
+}
+
+footer p {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    margin: 4%;
+}
+
+#section1 {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#section2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#section3 div div {
+    border: 7px solid;
+    border-radius: 20px;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 2;
+    box-shadow: 20px 20px 40px gray;
+    padding: 3%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    background-image: linear-gradient(red, orangered);
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.half-width {
+    width: 50%;
+    margin: 10px;
+}
+
+.half-width img {
+    width: 80%;
+}
