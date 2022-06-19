@@ -36,10 +36,10 @@ footer p {
 }
 
 #section3 div div {
-    border: 7px solid;
+    border-left: 7px solid;
     border-radius: 20px;
     border-image: linear-gradient(blue, skyblue);
-    border-image-slice: 2;
+    border-image-slice: 1;
     box-shadow: 20px 20px 40px gray;
     padding: 3%;
 }
